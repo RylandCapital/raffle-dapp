@@ -1,0 +1,15 @@
+
+//terrain
+load terrain console on localterra -> terrain console
+load terrain console on testnet -> terrain console --network testnet
+
+    //terrain front end 
+    sync refs before npm start -> terrain sync-refs
+
+//deploy
+terrain deploy counter --signer testnetonly --network testnet
+
+
+
+//test
+cargo test to make sure contract compiles
